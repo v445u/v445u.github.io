@@ -1,249 +1,380 @@
+<!-- HTML, CSS and JavaScript crafted by Big Pickle via OpenCode. -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0">
-    <title>Parth | Security Researcher</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partha Pratim Chakraborty — Cybersecurity Consultant</title>
+  <meta name="description" content="Portfolio of Partha Pratim Chakraborty (@v445u), Associate Consultant at Infosys, specializing in VAPT, AI-assisted penetration testing, web, API, network and Kubernetes security." />
+  <meta name="theme-color" content="#070b10" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Partha Pratim Chakraborty — Cybersecurity Consultant" />
+  <meta property="og:description" content="Offensive security, AI-assisted penetration testing and client consulting." />
+  <meta property="og:url" content="https://v445u.github.io" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
 </head>
-
 <body>
-    <!--Header(start)-->
-    <table id="header" border="0" 
-           width="100%" cellpadding="0" 
-           cellspacing="0" bgcolor="white">
-        <tr>
-            <td>
-                <table border="0" cellpadding="15" 
-                       cellspacing="0" width="90%" 
-                       align="center">
-                    <tr>
-                        <td>
-                            &nbsp;
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
 
-                        </td>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" title="Home">
+        <span class="brand-mark">&lt;PP/&gt;</span>
+        <span class="brand-text">parth<span class="accent">.</span>sec</span>
+      </a>
 
-                        <td>
-                            <font face="Serif" size="6">
-                                <b>Parth Chakravarty</b>
-                            </font>
-                        </td>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
 
-                        <td width="15%">
-                            &nbsp;
-                        </td>
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#certs">Certs</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                        <td>
-                            <a href="#home" 
-                               style="text-decoration:none">
-                                <font face="Verdana" 
-                                      size="5" color=black>
-                                    Home
-                                </font>
-                            </a>
-                        </td>
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Open to collaborations, workshops &amp; security talks</p>
 
-                        <td>
-                            |
-                        </td>
+          <div class="identity">
+            <div class="avatar" aria-hidden="true"><span>PP</span></div>
+            <div>
+              <p class="handle">@v445u</p>
+              <p class="location">India · GMT+5:30</p>
+            </div>
+          </div>
 
-                        <td>
-                            <a href="#about" 
-                               style="text-decoration:none">
-                                <font face="Verdana" 
-                                      size="5" color=black>
-                                    About
-                                </font>
-                            </a>
-                        </td>
+          <h1>Partha Pratim<br /><span class="gradient-text">Chakraborty</span></h1>
+          <p class="hero-role">Associate Consultant <span class="sep">/</span> Information Security</p>
+          <p class="hero-intro">I turn adversarial thinking into stronger defenses — across web, API, network and Kubernetes environments, now with AI as a force multiplier.</p>
 
-                        <td>
-                            |
-                        </td>
+          <div class="typing-line" aria-label="Current focus">
+            <span class="prompt">$</span> <span id="typed-role">breaking things responsibly</span><span class="caret" aria-hidden="true"></span>
+          </div>
 
-                        <td>
-                            <a href="#projects" 
-                               style="text-decoration:none">
-                                <font face="Verdana" 
-                                      size="5" color=black>
-                                    Projects
-                                </font>
-                            </a>
-                        </td>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience">View experience <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
 
-                        <td>
-                            |
-                        </td>
+          <ul class="hero-stats" aria-label="At a glance">
+            <li><strong>4+</strong><span>Years in security</span></li>
+            <li><strong>4</strong><span>Industry certs</span></li>
+            <li><strong>AI</strong><span>Enabled PT</span></li>
+            <li><strong>∞</strong><span>Curiosity</span></li>
+          </ul>
+        </div>
 
-                        <td>
-                            <a href="#achievements" 
-                               style="text-decoration:none">
-                                <font face="Verdana" 
-                                      size="5" color=black>
-                                    Achievements
-                                </font>
-                            </a>
-                        </td>
+        <div class="terminal-wrap reveal">
+          <div class="terminal-window">
+            <div class="terminal-bar">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+              <span class="terminal-title">parth@infosys: ~</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="t-prompt">$</span> whoami</p>
+              <p class="t-output">parth — offensive security &amp; consulting</p>
+              <p><span class="t-prompt">$</span> cat current_role.txt</p>
+              <p class="t-output">Associate Consultant @ Infosys</p>
+              <p class="t-output">AI-assisted PT · PoVs · client delivery</p>
+              <p><span class="t-prompt">$</span> grep -i "focus" scope.log</p>
+              <p class="t-output">web | api | network | k8s | cloud | soc</p>
+              <p><span class="t-prompt">$</span> ./status --check</p>
+              <p class="t-output t-success">● actively securing, always learning<span class="caret" aria-hidden="true"></span></p>
+            </div>
+          </div>
+          <div class="terminal-badges" aria-label="Toolbox highlights">
+            <span>CRTP</span><span>CRTA</span><span>C|EH v11</span><span>MITRE ATT&amp;CK</span><span>K8s PT</span>
+          </div>
+        </div>
+      </div>
 
-                        <td>
-                            |
-                        </td>
+      <a class="scroll-hint" href="#about">↓ &nbsp;scroll to explore</a>
+    </section>
 
-                        <td>
-                            <a href="#contact" 
-                               style="text-decoration:none">
-                                <font face="Verdana" 
-                                      size="5" color=black>
-                                    Contact
-                                </font>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!--Header(end)-->
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <span class="section-number">01 / About</span>
+          <h2 class="section-title">Security is a mindset, not a checklist.</h2>
+          <p>I'm a cybersecurity professional with <strong>4+ years</strong> across vulnerability assessment, penetration testing, configuration reviews and client consulting. I hold <strong>CRTP</strong>, <strong>CRTA</strong>, <strong>C|EH v11</strong> and <strong>Certified Cyber Criminologist</strong> credentials, with a focus on finding real risk and turning it into practical remediation.</p>
+          <p>Today at <strong>Infosys</strong>, I work with clients on AI-assisted penetration testing and proof-of-concepts across web, API, network and Kubernetes environments, turning findings into practical remediation.</p>
+          <p>Earlier, at <strong>eSec Forte Technologies</strong>, I mentored junior team members and ran cybersecurity workshops for schools, colleges and corporate audiences — because a stronger security community makes everyone safer.</p>
+          <p class="about-kicker">"4t t1m3s, change your perception."</p>
+        </div>
 
-    <!--Home(start)-->
-    <table id="home" border="1" width="100%" 
-        cellpadding="20" cellspacing="0" bgcolor="gray">
-        <tr>
-            <td>
-                <table border="0" cellpadding="15" 
-                    cellspacing="0" width="90%" align="center">
-                    <tr>
-                        <td align="center" valign="middle">
-                            <h3>
-                                <font face="Times New Roman" 
-                                    size="6" color="black">
-                                    Security Researcher
-                                </font>
-                            </h3>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!--Home(end)-->
+        <aside class="about-card reveal" aria-label="Quick facts">
+          <h3><span class="card-dot"></span> Quick facts</h3>
+          <dl>
+            <div><dt>Currently</dt><dd>Associate Consultant, Infosys</dd></div>
+            <div><dt>Focus</dt><dd>Offensive security &amp; AI-enabled PT</dd></div>
+            <div><dt>Domains</dt><dd>Web, API, Network, K8s, Cloud</dd></div>
+            <div><dt>Defensive</dt><dd>SOC, Threat hunting, DLP, XDR</dd></div>
+            <div><dt>Education</dt><dd>BSc (Hons), Computer Science</dd></div>
+            <div><dt>Based in</dt><dd>India</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
 
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">02 / Experience</span>
+          <h2 class="section-title">Where I've been in the trenches</h2>
+          <p class="section-subtitle">A progression from hands-on analysis to consulting, client delivery and AI-enabled offensive security.</p>
+        </div>
 
-    <!--About(start)-->
-    <table id="about" border="0" width="100%" 
-        cellpadding="0" cellspacing="0" bgcolor="black">
-        <tr>
-            <td>
-                <table border="0" cellpadding="15" 
-                    cellspacing="0" width="80%" align="center">
-                    <tr>
-                        <td height="180" align="right" 
-                            valign="right" colspan="2">
-                            <font face="Verdana" size="7" 
-                                color="white">
-                                About Me
-                            </font>
-                            <hr color="#4CAF50" width="150" align="right">
-                        </td>
-                    </tr>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span class="timeline-marker current"></span></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Jan 2026 — Present</p>
+              <div class="timeline-card featured">
+                <div class="timeline-card-head">
+                  <h3>Associate Consultant</h3>
+                  <span class="company">Infosys</span>
+                </div>
+                <p class="timeline-meta">Offensive Security · Client Consulting · India</p>
+                <ul>
+                  <li>Manage client engagements and translate security findings into clear, actionable remediation.</li>
+                  <li>Leverage AI tools to accelerate penetration testing, research and proof-of-concept (PoV) development.</li>
+                  <li>Perform web, API, network and Kubernetes (K8s) penetration testing across client environments.</li>
+                  <li>Build PoVs that demonstrate real-world impact and help teams prioritize what matters.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
 
-                    <tr>
-                        <td width="30%">
-                            <img src="https://media.licdn.com/dms/image/D5603AQGrZE4HxP5mLA/profile-displayphoto-shrink_400_400/0/1720726108374?e=1727913600&v=beta&t=04mLBgr4zNCKE9mjYDfu5fvfljpYXmrO72K2hLcvOqI">
-                        </td>
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span class="timeline-marker"></span></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Nov 2024 — Jan 2026</p>
+              <div class="timeline-card">
+                <div class="timeline-card-head">
+                  <h3>Information Security Consultant</h3>
+                  <span class="company">eSec Forte Technologies Pvt Ltd</span>
+                </div>
+                <p class="timeline-meta">VAPT · Cloud Security · SOC Operations</p>
+                <ul>
+                  <li>Conducted VAPT on networks, web applications, APIs and VPN segmentation for client infrastructure.</li>
+                  <li>Performed mobile application SAST/DAST and source code reviews to uncover weakness and data leakage.</li>
+                  <li>Reviewed firewall, VPN, Active Directory and multi-cloud (AWS, Azure, GCP) configurations.</li>
+                  <li>Validated SOC alerts through threat hunting, incident investigation and DLP/SOC use-case testing.</li>
+                  <li>Aligned defense strategies with MITRE ATT&amp;CK; mentored juniors and delivered security workshops.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
 
-                        <td width="60%">
-                            <font face="Verdana" size="4" 
-                                color="white">
-                                Thanks for your interest...
-                                <hr color="black">
-                                I am a cyber security enthusiast with almost 2 years of work experience and 
-                                currently hold the C|EH certification. 
-                                As part of my day-to-day work, I deal with clients for their security assessment 
-                                and provide remediation support after conducting the VAPT
-                                 or configuration review assessment. 
-                                 Moreover, I have also conducted seminars and workshops 
-                                 related to the cyber security topics and have guided a lot of 
-                                 individuals on their career path to get started and 
-                                 aspire in the domain and the industry. My areas of interest expand 
-                                 to the entire field of cyber security and am looking forward 
-                                 to work with professionals and develop myself into one.
-                                <hr color="black">
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span class="timeline-marker"></span></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Jan 2024 — Nov 2024</p>
+              <div class="timeline-card">
+                <div class="timeline-card-head">
+                  <h3>Security Analyst</h3>
+                  <span class="company">CyberSRC Consultancy Pvt Ltd</span>
+                </div>
+                <p class="timeline-meta">Client VAPT · Configuration Review</p>
+                <ul>
+                  <li>Delivered VAPT services to secure client infrastructure and applications.</li>
+                  <li>Led security assessment projects that raised the security baseline of client digital assets.</li>
+                  <li>Provided CIS-benchmark-based configuration reviews with remediation support.</li>
+                  <li>Performed source code reviews and took part in the CERT-IN empanelment exam.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
 
-                                I like to address critical problems and complications and figure 
-                                a way out for organsations to empower their security by 
-                                not compromising on product convinience and efficiancy. 
-                                <hr color="black">
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span class="timeline-marker"></span></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Nov 2022 — Jan 2024</p>
+              <div class="timeline-card">
+                <div class="timeline-card-head">
+                  <h3>Information Security Analyst</h3>
+                  <span class="company">ISOAH Data Securities Pvt Ltd</span>
+                </div>
+                <p class="timeline-meta">Offensive &amp; Defensive Security</p>
+                <ul>
+                  <li>Collaborated with experts to advance offensive and defensive security tactics.</li>
+                  <li>Built realistic scenarios to strengthen hands-on security skills.</li>
+                  <li>Carried out SAST and DAST testing across applications.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
 
-                                I love doing what I do and would really appreciate if we can connect and 
-                                share insights about the latest trends in the domain and 
-                                its tilt. 
-                                <hr color="black">
-                                Cheers,
-                                <br>
-                                <b>Parth Chakravarty</b>
-                            </font>
-                        </td>
-                    </tr>
-                </table>
-                <hr color="black">
-                <hr color="black">
-                <hr color="black">
-            </td>
-        </tr>
-    </table>
-    <!--About(end)-->
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span class="timeline-marker"></span></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Jul 2022 — Oct 2022</p>
+              <div class="timeline-card compact">
+                <div class="timeline-card-head">
+                  <h3>Information Security Intern</h3>
+                  <span class="company">ISOAH Data Securities Pvt Ltd</span>
+                </div>
+                <p class="timeline-meta">Where the journey began</p>
+              </div>
+            </div>
+          </article>
+        </div>
 
+        <div class="education-strip reveal">
+          <div>
+            <span class="section-number">Education</span>
+            <h3>BSc (Honors), Computer Science</h3>
+          </div>
+          <p>North Bengal St. Xavier's College · July 2019 — July 2022</p>
+        </div>
+      </div>
+    </section>
 
-    <!--Projects(start)-->
-    <table id="projects" border="0" width="100%" 
-        cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
-        <tr>
-            <td>
-                <table border="0" cellpadding="15" 
-                    cellspacing="0" width="80%" align="center">
-                    <tr>
-                        <td height="180" align="right" 
-                            valign="right" colspan="2">
-                            <font face="Verdana" size="7" 
-                                color="black">
-                                Domains of interest/expertise 
-                            </font>
-                            <hr color="#4CAF50" width="150" align="right">
-                        </td>
-                    </tr>
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">03 / Skills</span>
+          <h2 class="section-title">The toolkit</h2>
+          <p class="section-subtitle">From recon to remediation — the capabilities I bring to an engagement.</p>
+        </div>
 
-                    <tr>
-                        <td height="10">
-                            <font face="Times New Roman" 
-                                size="5" color="black">
-                                <ul>
-                                    <li>
-                                        IT Infrastructure VAPT
-                                    </li>
-                                    <li>
-                                        API & Application VAPT
-                                    </li>
-                                    <li>
-                                        Cloud & Infrastructure Configuration Review
-                                    </li>
-                                    <li>
-                                        Source Code Review
-                                    </li>
-                                </ul>
-                                <hr color="#c2c0c3">
-                                <hr color="#c2c0c3">
-                                <hr color="#c2c0c3">
-                                <hr color="#c2c0c3">
-                            </font>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!--Projects(end)-->
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-icon">⌁</span>
+            <h3>Penetration Testing</h3>
+            <div class="tags">
+              <span>Web Apps</span><span>APIs</span><span>Networks</span><span>Active Directory</span>
+              <span>Android / iOS</span><span>Kubernetes (K8s)</span><span>VPN Segmentation</span><span>Source Code Review</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-icon">✦</span>
+            <h3>AI &amp; Automation</h3>
+            <div class="tags">
+              <span>AI-assisted PT</span><span>Proof of Concepts</span><span>Python</span><span>Bash</span><span>Scripting</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-icon">◇</span>
+            <h3>Defensive &amp; Governance</h3>
+            <div class="tags">
+              <span>Threat Hunting</span><span>Incident Response</span><span>SOC Use Cases</span><span>DLP</span>
+              <span>XDR</span><span>CyberArk PAM</span><span>MITRE ATT&amp;CK</span><span>CIS Benchmarks</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-icon">☁</span>
+            <h3>Cloud &amp; Platforms</h3>
+            <div class="tags">
+              <span>AWS</span><span>Azure</span><span>GCP</span><span>Linux</span><span>Kubernetes</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal wide">
+            <span class="skill-icon">⚙</span>
+            <h3>Tools I reach for</h3>
+            <div class="tags">
+              <span>Burp Suite</span><span>Nmap</span><span>Metasploit</span><span>Nessus</span><span>Acunetix</span>
+              <span>MobSF</span><span>sqlmap</span><span>Frida</span><span>ScoutSuite</span><span>Horusec</span>
+              <span>Trend Micro XDR</span><span>Forcepoint DLP</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">04 / Certifications</span>
+          <h2 class="section-title">Credentials &amp; continuous learning</h2>
+          <p class="section-subtitle">Hands-on certifications backed by real assessment experience.</p>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <span class="cert-icon">◆</span>
+            <h3>CRTP</h3>
+            <p>Certified Red Team Professional</p>
+          </article>
+          <article class="cert-card reveal">
+            <span class="cert-icon">◈</span>
+            <h3>CRTA</h3>
+            <p>Certified Red Team Analyst</p>
+          </article>
+          <article class="cert-card reveal">
+            <span class="cert-icon">⬡</span>
+            <h3>C|EH v11</h3>
+            <p>Certified Ethical Hacker</p>
+          </article>
+          <article class="cert-card reveal">
+            <span class="cert-icon">⬢</span>
+            <h3>Cyber Criminologist</h3>
+            <p>Certified · cybercrime &amp; digital forensics</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <span class="section-number">05 / Contact</span>
+          <h2 class="section-title">Let's talk security.</h2>
+          <p>Open to collaborations, workshops, research discussions, or a solid threat-modeling debate. My inbox is always open.</p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:chakrabortyparth23@gmail.com">Email me <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/parth-chakravarty-70a137172" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-row">
+              <span class="contact-label">Email</span>
+              <button class="copy-email" id="copyEmail" type="button" aria-label="Copy email address">
+                <span>chakrabortyparth23@gmail.com</span><small id="copyFeedback">Copy</small>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Partha Pratim Chakraborty. HTML, CSS &amp; JS made famous by <strong>Big Pickle</strong> at OpenCode.</p>
+      <p class="footer-right"><span class="status-dot"></span> Currently at Infosys · India</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
