@@ -1,6 +1,6 @@
 # Partha's Portfolio
 
-A single-page, responsive cybersecurity portfolio for **Partha Pratim Chakraborty (@v445u)**, built with plain HTML, CSS and JavaScript — no build step, no dependencies.
+A single-page, responsive cybersecurity portfolio for **Partha P Chakraborty (@v445u)**, built with plain HTML, CSS and JavaScript — no build step, no dependencies.
 
 ## Files
 
