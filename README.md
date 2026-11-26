@@ -44,7 +44,7 @@ Then open <http://localhost:8000>.
 
 - Resume: `parth_resume_2025.pdf` (roles up to Jan 2026)
 - Update from you: Associate Consultant at Infosys since Jan 2026 — client handling, AI-assisted PT, PoVs, web/API/network/K8s testing
-- Mentoring and workshops are attributed to eSec Forte Technologies, where you did that work — not Infosys.
+- Mentoring and workshops are described generally, with no company named, as requested.
 
 ## Credit
 
