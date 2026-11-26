@@ -36,7 +36,8 @@ Then open <http://localhost:8000>.
 - **Text, experience, contact details:** edit `index.html`.
 - **Colours:** change the CSS variables at the top of `styles.css` (`--accent`, `--accent-blue`, etc.).
 - **Resume:** the 2025 resume is intentionally *not* linked, since it predates Infosys. Add an updated PDF and a download button if you want one.
-- **Privacy:** the phone number is **not** on the site. Contact is email and LinkedIn only.
+- **Privacy:** neither the phone number nor the email address appears on the site. The only contact route is the "Find me via LinkedIn" button.
+- **Contact:** change the LinkedIn URL in `index.html` if you ever want to use a different profile.
 - **Projects/repos:** the projects section and all GitHub repo links were removed at your request.
 
 ## Content sources

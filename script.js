@@ -112,37 +112,6 @@
     sections.forEach(function (section) { sectionObserver.observe(section); });
   }
 
-  /* ---------- Copy email ---------- */
-  const copyButton = document.getElementById("copyEmail");
-  const feedback = document.getElementById("copyFeedback");
-  const email = "chakrabortyparth23@gmail.com";
-
-  if (copyButton && feedback) {
-    copyButton.addEventListener("click", async function () {
-      let copied = false;
-      try {
-        if (navigator.clipboard && window.isSecureContext) {
-          await navigator.clipboard.writeText(email);
-          copied = true;
-        } else {
-          const input = document.createElement("textarea");
-          input.value = email;
-          input.setAttribute("readonly", "");
-          input.style.position = "fixed";
-          input.style.opacity = "0";
-          document.body.appendChild(input);
-          input.select();
-          copied = document.execCommand("copy");
-          document.body.removeChild(input);
-        }
-      } catch (error) {
-        copied = false;
-      }
-      feedback.textContent = copied ? "Copied!" : "Select & copy";
-      window.setTimeout(function () { feedback.textContent = "Copy"; }, 2200);
-    });
-  }
-
   /* ---------- Footer year ---------- */
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
